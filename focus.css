@@ -1,0 +1,60 @@
+.bg-black{
+    background-color: black;
+}
+.navbar-brand{
+    height: 4rem;
+    width: 7rem;
+}
+.nav-link{
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+.about-section{
+    color: white;
+}
+.about-section p{
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.section-heading{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+.image-description{
+    color: white;
+    font-family:'Qahiri', sans-serif; 
+}
+
+
+.contact-section{
+    background-image:url(contactimg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+   
+}
+.section-subheading{
+    color: white;
+}
+.form-link{
+    color: white;
+}
+textarea{
+    height: 7rem;
+}
+.contact-box .form-control{
+    height: 50px;
+
+}
+
+
+@media(max-width:768px){
+    .contact-section .row{
+        display: flex;
+        align-items: center;
+        min-height: 100vh;
+    
+    }
+
+}
